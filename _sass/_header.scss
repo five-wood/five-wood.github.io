@@ -1,15 +1,15 @@
 header {
-    background: #222;
+    background: #90571b91;
     height: 52px;
-    color: #9d9d9d;
-    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
+    color: #676666fa;
+    box-shadow: 0 2px 4px 3px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     a {
-        color: #9d9d9d;
+        color: #583611;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
-            color: #fff;
+            color: #82592c;
         }
     }
     .wrapper {
@@ -17,7 +17,8 @@ header {
         margin: 0 auto;
         line-height: 52px;
         .brand {
-            font-size: 18px;
+            font-size: 20px;
+            font-style: oblique;
         }
         small {
             margin-left: 26px;
@@ -43,15 +44,15 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #000;
+                            background-color: #aaaaaa4a;
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #fff;
-                        background-color: #000;
+                        color: #b9b9b9;
+                        background-color: #2b3c394a;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
@@ -124,8 +125,8 @@ header {
                 transition: 0.4s ease;
             }
             >.active{
-                background: #000;
-                color: #fff;
+                color: #b9b9b9;
+                background: #2b3c394a;
             }
             .nav-show{
                 visibility: visible;
@@ -162,8 +163,8 @@ header {
                             border: none;
                         }
                         >.active {
-                            color: #fff;
-                            background-color: #000;
+                            color: #b9b9b9;
+                            background-color: #2b3c394a;
                             box-shadow: none;
                         }
                     }
