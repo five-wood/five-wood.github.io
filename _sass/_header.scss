@@ -1,15 +1,15 @@
 header {
-    background: #90571b91;
+    background: #222;
     height: 52px;
-    color: #676666fa;
-    box-shadow: 0 2px 4px 3px rgba(0,0,0,0.5);
+    color: #9d9d9d;
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     a {
-        color: #583611;
+        color: #9d9d9d;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
-            color: #82592c;
+            color: #fff;
         }
     }
     .wrapper {
@@ -17,8 +17,7 @@ header {
         margin: 0 auto;
         line-height: 52px;
         .brand {
-            font-size: 20px;
-            font-style: oblique;
+            font-size: 18px;
         }
         small {
             margin-left: 26px;
@@ -44,15 +43,15 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #aaaaaa4a;
+                            background-color: #000;
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #b9b9b9;
-                        background-color: #2b3c394a;
+                        color: #fff;
+                        background-color: #000;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
@@ -125,8 +124,8 @@ header {
                 transition: 0.4s ease;
             }
             >.active{
-                color: #b9b9b9;
-                background: #2b3c394a;
+                background: #000;
+                color: #fff;
             }
             .nav-show{
                 visibility: visible;
@@ -163,8 +162,8 @@ header {
                             border: none;
                         }
                         >.active {
-                            color: #b9b9b9;
-                            background-color: #2b3c394a;
+                            color: #fff;
+                            background-color: #000;
                             box-shadow: none;
                         }
                     }
